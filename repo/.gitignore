@@ -1,0 +1,26 @@
+# Windows and tooling
+*.iso
+*.img
+*.vhd
+*.vhdx
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+
+# Generated output and temporary files
+/reports/**
+!/reports/.gitkeep
+*.tmp
+*.temp
+*.log
+*.bak
+~$*
+
+# IDE and local configuration
+.idea/
+*.iml
+.vscode/
+
+# PowerShell generated artifacts
+*.ps1xml
